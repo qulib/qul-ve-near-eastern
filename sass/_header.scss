@@ -1,0 +1,12 @@
+.site-title a {
+  color: $queens-blue;
+}
+
+
+body:not(.overlay-header) .primary-menu > li > a {
+  color: $link-blue;
+
+  &:hover {
+    color: $queens-red;
+  }
+}
