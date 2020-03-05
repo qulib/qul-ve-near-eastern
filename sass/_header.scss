@@ -1,12 +1,18 @@
-.site-title a {
-  color: $queens-blue;
-}
+#site-header {
+  border-bottom: 1px solid $qul-gray;
 
-
-body:not(.overlay-header) .primary-menu > li > a {
-  color: $link-blue;
-
-  &:hover {
-    color: $queens-red;
+  .site-title a {
+    color: $queens-blue;
   }
+
+  // use custom colour in theme options instead
+  // body:not(.overlay-header) .primary-menu > li > a {
+  //   color: $link-blue;
+
+  //   &:hover {
+  //     color: $queens-red;
+  //   }
+  // }
+
 }
+

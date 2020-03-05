@@ -1,0 +1,19 @@
+.single {
+  .post-meta,
+  .entry-categories {
+    display: none;
+  }
+
+  .metadata {
+    list-style: none;
+
+    li {
+      margin: 0 0 1rem 0;
+
+      span {
+        font-weight: bold;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

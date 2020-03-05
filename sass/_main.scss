@@ -9,10 +9,6 @@
     color: $queens-blue;
   }
 
-  // header {
-  //   border: 1px solid $qul-gray;
-  // }
-
   // .entry-content {
   //   blockquote {
   //     background: url("images/blockquote.svg") no-repeat;
@@ -26,4 +22,28 @@
   //     }
   //   }
   // }
+
+  // for the Display Posts plugin
+  .display-posts-listing {
+
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+
+    .title {
+      display: block;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+
+    @media (min-width: 700px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
 }

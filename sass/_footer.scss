@@ -4,5 +4,9 @@
   .section-inner {
     display: flex;
     align-items: center;
+
+    img {
+      padding: 0 2rem;
+    }
   }
 }
