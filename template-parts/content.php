@@ -40,13 +40,22 @@
       /* only show the metadata on posts, not static pages */
       if (!is_page()) { ?>
 
-        <h2>Metadata</h2>
-
-
         <ul class="metadata">
-          <li><span>Accession Number:</span><?php the_field('accession_number'); ?></li>
           <li><span>Object Title:</span> <?php the_field('object_title'); ?></li>
-          <li><span>Achaeologist:</span> <?php the_field('collector'); ?></li>
+          <li><span>Object Name:</span> <?php the_field('object_name'); ?></li>
+          <li><span>Object Number:</span> <?php the_field('object_number'); ?></li>
+          <li><span>Description:</span> <?php the_field('description'); ?></li>
+          <li><span>Dimensions:</span> <?php the_field('dimensions'); ?></li>
+          <li><span>Material:</span> <?php the_field('material'); ?></li>
+          <li><span>Geography:</span> <?php the_field('geography'); ?></li>
+          <li><span>Period:</span> <?php the_field('period'); ?></li>
+          <li><span>Date:</span> <?php the_field('date'); ?></li>
+          <li><span>Field Collector:</span> <?php the_field('field_collector'); ?></li>
+          <li><span>Museum Collector:</span> <?php the_field('museum_collector'); ?></li>
+          <li><span>1953 Archaeological Context:</span> <?php the_field('1953_archaeological_context'); ?></li>
+          <li><span>Excavation Number:</span> <?php the_field('excavation_number'); ?></li>
+          <li><span>Cross References:</span> <?php the_field('cross_references'); ?></li>
+          <li><span>Published References:</span> <?php the_field('published_references'); ?></li>
         </ul>
 
       <?php } ?>

@@ -9,6 +9,10 @@
     color: $queens-blue;
   }
 
+  .post-inner {
+    padding-top: 0 !important;
+  }
+
   // .entry-content {
   //   blockquote {
   //     background: url("images/blockquote.svg") no-repeat;
@@ -33,6 +37,8 @@
 
     .title {
       display: block;
+      font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+      font-weight: bold;
     }
 
     img {
