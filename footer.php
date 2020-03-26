@@ -19,8 +19,8 @@
 
 
 
-      <a href="https://library.queensu.ca">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qul-logo-long.svg" width="465" height="69" alt="Queen's University Library Home"></a>
+      <a href="https://virtual-exhibits.library.queensu.ca/">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qul-logo-ve.svg" width="465" height="69" alt="Queen's University Library Virtual Exhibits"></a>
 
       <a href="https://queensu.ca">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qu-logo.svg" width="200" height="152" alt="Queen's University Home">
